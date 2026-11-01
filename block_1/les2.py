@@ -98,22 +98,22 @@
 # print(f'Количество увеличений: {col_difference}')
 
 
-col = 0
-time_col = 1
-prev = None
-while True:
-    num = int(input('Введите число: '))
-    if num == 0:
-        break
-    if prev is not None:
-        if num == prev:
-            time_col += 1
-        else:
-            time_col = 1
-    if time_col > col:
-        col = time_col
-    prev = num
-print(f'Максимальное количество подряд идущих: {col}')
+# col = 0
+# time_col = 1
+# prev = None
+# while True:
+#     num = int(input('Введите число: '))
+#     if num == 0:
+#         break
+#     if prev is not None:
+#         if num == prev:
+#             time_col += 1
+#         else:
+#             time_col = 1
+#     if time_col > col:
+#         col = time_col
+#     prev = num
+# print(f'Максимальное количество подряд идущих: {col}')
             
 
 

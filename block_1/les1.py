@@ -29,17 +29,17 @@
 # print(can_access)
 
 
-distance = float(input('Нужное расстояние: '))
-avg_fuel = float(input('Средний расход топлива на 100 км: '))
-real_fuel = distance / 100 * avg_fuel
-price_fuel = float(input('Цена за литр: '))
-passengers = int(input('Количество людей: '))
+# distance = float(input('Нужное расстояние: '))
+# avg_fuel = float(input('Средний расход топлива на 100 км: '))
+# real_fuel = distance / 100 * avg_fuel
+# price_fuel = float(input('Цена за литр: '))
+# passengers = int(input('Количество людей: '))
 
-cost_fuel = real_fuel * price_fuel
-price_per_person = cost_fuel/passengers
+# cost_fuel = real_fuel * price_fuel
+# price_per_person = cost_fuel/passengers
 
-print(f'Необходимое топливо: {real_fuel:.2f}')
-print(f'Стоимость поездки: {cost_fuel:.2f}')
-print(f'Стоимость с каждого: {price_per_person:.2f}')
+# print(f'Необходимое топливо: {real_fuel:.2f}')
+# print(f'Стоимость поездки: {cost_fuel:.2f}')
+# print(f'Стоимость с каждого: {price_per_person:.2f}')
 
 
